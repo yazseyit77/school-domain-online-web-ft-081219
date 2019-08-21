@@ -1,6 +1,6 @@
 # code here!
 class School
-  attr_reader 
+  attr_reader
 
   def initialize
   end
