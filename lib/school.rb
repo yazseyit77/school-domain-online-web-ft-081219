@@ -1,9 +1,9 @@
 # code here!
 class School
   attr_reader :name, :breed
-  def initialize(name  = "Bayside High School", roster)
+  def initialize(name  = "Bayside High School", new)
     @name = name
-    @roster = roster
+    @new = new
   end
 
 
