@@ -3,9 +3,9 @@ class School
   attr_reader :name, :new
 
   ROSTER = {}
-  def initialize(name  = "Bayside High School", new = {})
+  def initialize(name  = "Bayside High School", roster = {})
     @name = name
-    @new = new
+    @roster = roster
   end
 
 
