@@ -1,10 +1,8 @@
 # code here!
 class School
-  attr_reader :name
+  attr_reader 
 
-  def initialize(name  = "Bayside High School")
-    @name = name
-
+  def initialize
   end
 
 end
