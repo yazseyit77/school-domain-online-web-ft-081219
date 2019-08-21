@@ -4,7 +4,7 @@ class School
 
   def initialize(name  = "Bayside High School")
     @name = name
-  
+
   end
 
 end
