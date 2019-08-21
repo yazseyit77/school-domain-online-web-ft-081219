@@ -1,14 +1,10 @@
 # code here!
 class School
-  attr_reader :name, :new
+  attr_reader :name
 
-  ROSTER = {}
-  def initialize(name  = "Bayside High School", roster = {})
+  def initialize(name  = "Bayside High School")
     @name = name
-    @roster = roster
+  
   end
 
-  def add_student
-
-  end
 end
